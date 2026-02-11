@@ -56,4 +56,20 @@ p{
   
 }
 
+@media (max-width: 768px) {
+    body {
+        
+        overflow-x: hidden; 
+        align-items: center;
+    }
+
+    .container {
+        
+        margin-left: 0 ;
+        margin-right: 0 ;
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+    }
+
 
