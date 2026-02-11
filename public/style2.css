@@ -64,7 +64,7 @@ p{
     }
 
     .container {
-        
+        position: fixed;
         margin-left: 0 ;
         margin-right: 0 ;
         width: 100%;
@@ -81,9 +81,8 @@ p{
     }
 
      .couple-img {
-        
-        height: 80vh; 
-        left: 40%;
+        height: 90vh; 
+        left: 46%;
         transform: translateX(-35%);
         opacity: 0.8; 
     }
