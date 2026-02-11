@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Votes</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+       <video autoplay muted loop playsinline id="bg-video">
+    <source src="64426-509717747.mp4" type="video/mp4">
+</video>
+        <img src="couple.png" class="couple-img" alt="Couple">
+        <div class="container">
+        <h1>Will you be My Valentine ❤️</h1>
+        <p>Think wisely laadle</p>
+
+        <link rel="stylesheet" href="style.css">
+
+        <div class="options">
+            <a href="yes.html">
+            <button class="Yes">Yes</button>
+            </a>
+            <button class="No">No
+                
+            </button>
+
+        </div>
+        </div>
+       <div class="hearts-bg">
+  <span>♡</span>
+  <span>♡</span>
+  <span>♡</span>
+  <span>♡</span>
+  <span>♡</span>
+  <span>♡</span>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+
+            const socket= io();
+
+            socket.on('connect', ()=> {
+                console.log("connected to the server with ID:"+ socket.id);
+            });
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
