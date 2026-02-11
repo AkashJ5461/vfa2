@@ -72,4 +72,21 @@ p{
         justify-content: center;
     }
 
+    h1 {
+        font-size:40px;
+    }
+
+    p {
+        font-size:30px;
+    }
+
+     .couple-img {
+        
+        height: 80vh; 
+        left: 35%;
+        transform: translateX(-35%);
+        opacity: 0.8; 
+    }
+}
+
 
