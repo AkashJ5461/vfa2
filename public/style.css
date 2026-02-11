@@ -112,3 +112,49 @@ p{
 }
 
 
+@media (max-width: 768px) {
+    body {
+        
+        overflow-x: hidden; 
+        align-items: center;
+    }
+
+    .container {
+        
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 40px; 
+    }
+
+    .options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; 
+        gap: 10px;
+        height: auto;
+    }
+
+    .Yes, .No {
+        
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    .couple-img {
+        
+        height: 80vh; 
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0.5; 
+    }
+}
