@@ -121,8 +121,8 @@ p{
 
     .container {
         
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        margin-left: 0 ;
+        margin-right: 0 ;
         width: 100%;
         padding: 20px;
         box-sizing: border-box;
@@ -143,9 +143,9 @@ p{
 
     .Yes, .No {
         
-        position: relative !important;
-        left: auto !important;
-        right: auto !important;
+        position: relative ;
+        left: auto;
+        right: auto ;
         padding: 15px 30px;
         font-size: 14px;
     }
@@ -153,8 +153,8 @@ p{
     .couple-img {
         
         height: 80vh; 
-        left: 50%;
-        transform: translateX(-50%);
+        left: 35%;
+        transform: translateX(-35%);
         opacity: 0.5; 
     }
 }
